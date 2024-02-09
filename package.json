@@ -13,10 +13,10 @@
   "author": "Oleksandr_Rud",
   "license": "ISC",
   "dependencies": {
+    "cssnano": "^4.1.11",
     "gh-pages": "^6.1.1"
   },
   "devDependencies": {
-    "cssnano": "^6.0.3",
     "postcss": "^8.4.35"
   }
 }
