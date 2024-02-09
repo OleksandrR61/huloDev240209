@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.html",
-  "homepage": "https://oleksandrR61.github.io/huloDev240209/",
+  "homepage": "https://OleksandrR61.github.io/huloDev240209/",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url/huloDev240209/",
