@@ -3,11 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.html",
+  "homepage": "https://oleksandrR61.github.io/huloDev240209/",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Oleksandr_Rud",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.35"
+  }
 }
