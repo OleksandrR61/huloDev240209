@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 8px;
+
+    background: linear-gradient(45deg, #333333, #777777);
+}
+
+.container {
+    position: relative;
+
+    width: 1024px;
+    height: 250px;
+
+    overflow: hidden;
+
+    background-color: transparent;
+}
+
+.button {
+    position: absolute;
+    
+    height: 32px;
+    width: 32px;
+
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+
+    transition-property: opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:focus {
+    opacity: 0.3;
+}
+
+.slider {
+    display: flex;
+
+    position: absolute;
+    left: 0;
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.slider_button {
+    top: calc(50% - 16px);
+    
+    background-image: url('/arrowRight.1c0f1a2a.svg');    
+}
+
+.slider_button__right {
+    right: 0;
+}
+
+.slider_button__left {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.list_item {
+    position: relative;
+
+    margin-right: 8px;
+
+    background: linear-gradient(45deg, #555555, #999999);
+}
+
+.list_frame {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+}
+
+.video {
+    display: block;
+    object-fit: cover;
+}
+
+.video_preview {
+    height: 250px;
+    width: 250px;
+}
+
+.video_player {
+    height: 100%;
+    width: 100%;
+
+    opacity: 1;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #000000;
+    opacity: 0;
+    transform: scale(0);
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+
+    pointer-events: none;
+}
+
+.modal__shown {
+    opacity: 1;
+    transform: scale(1);
+
+    pointer-events: all;
+}
+
+.modal_button {
+    top: 50px;
+    right: 50px;
+    background-image: url('/cross.2d4361ed.svg');
+}
+
+.pagination {
+    display: flex;
+}
+
+.pagination_item {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    width: 16px;
+    height: 16px;
+
+    background-color: #aaaaaa;
+    opacity: 0.5;
+
+    transform: scale(1);
+
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.pagination_item:hover {
+    opacity: 0.8;
+}
+
+.pagination_item:focus {
+    opacity: 0.3;
+}
+
+.pagination_item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.pagination_item__current {
+    transform: scale(1.5);
+}
+
+/*# sourceMappingURL=/css.7663495c.css.map */
