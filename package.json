@@ -1,0 +1,13 @@
+{
+  "name": "hulodev240207",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Oleksandr_Rud",
+  "license": "ISC"
+}
