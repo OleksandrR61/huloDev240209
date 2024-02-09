@@ -530,4 +530,4 @@ container.insertAdjacentHTML("beforeend", (0, _partials.generateSlider)((0, _par
 //Adding an event handler
 container.addEventListener('click', _utils.handleClickSlider);
 },{"./utils":"CQHA","./const":"A9Sr","./partials":"jZ0P"}]},{},["QvaY"], null)
-//# sourceMappingURL=/js.6d20da4f.js.map
+//# sourceMappingURL=/huloDev240209/js.6d20da4f.js.map
