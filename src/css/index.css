@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+li {
+    list-style-type: none;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -90,6 +94,10 @@ body {
     margin-right: 8px;
 
     background: linear-gradient(45deg, #555555, #999999);
+}
+
+.list_item::marker {
+    display: none;
 }
 
 .list_frame {
